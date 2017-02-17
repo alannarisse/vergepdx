@@ -19,3 +19,53 @@ We suggest that you begin by typing:
   cd vergepdx-react
   npm start
 
+
+:::::::::::::::::::
+BUILD NOTES 1/26/17
+:::::::::::::::::::
+
+Compiled with warnings.
+
+Warning in ./src/Features.js
+
+/Users/alanna/Sites/vergepdx-react/src/Features.js
+  14:9  warning  'brand' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+You may use special comments to disable some warnings.
+Use // eslint-disable-next-line to ignore the next line.
+Use /* eslint-disable */ to ignore all warnings in a file.
+^C
+Alannas-MacBook-Pro:vergepdx-react alanna$ ps
+  PID TTY           TIME CMD
+ 1527 ttys000    0:00.12 -bash
+ 2018 ttys001    0:00.12 -bash
+ 6717 ttys001    0:00.07 ssh angrypirate@alannarisse.com
+ 6805 ttys002    0:00.02 -bash
+Alannas-MacBook-Pro:vergepdx-react alanna$ npm run build
+
+> vergepdx-react@0.1.0 build /Users/alanna/Sites/vergepdx-react
+> react-scripts build
+
+Creating an optimized production build...
+Compiled successfully.
+
+File sizes after gzip:
+
+  64.25 KB  build/static/js/main.1969fb8d.js
+  4.25 KB   build/static/css/main.ae3be980.css
+
+The project was built assuming it is hosted at the server root.
+To override this, specify the homepage in your package.json.
+For example, add this to build it for GitHub Pages:
+
+  "homepage": "http://myname.github.io/myapp",
+
+The build folder is ready to be deployed.
+You may also serve it locally with a static server:
+
+  npm install -g pushstate-server
+  pushstate-server build
+  open http://localhost:9000

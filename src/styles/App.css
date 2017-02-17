@@ -59,3 +59,12 @@ h2 {padding:10px;}
 .container {
   width: auto;
 }
+
+
+/* MODALS https://react-bootstrap.github.io/components.html */
+.modal-container {
+  position: relative;
+}
+.modal-container .modal, .modal-container .modal-backdrop {
+  position: absolute;
+}

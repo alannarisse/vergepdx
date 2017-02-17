@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import './styles/App.css';
 import HeaderNavigation from './HeaderNavigation';
 import Features from './Features';
+import Modlandia from './Modlandia';
 import Venues from './Venues';
+import About from './About';
 import Footer from './Footer';
 
 class App extends Component {
@@ -16,6 +18,7 @@ class App extends Component {
 
         <Features />
         <Venues />
+        <About />
         <Footer />
       </div>
     );
